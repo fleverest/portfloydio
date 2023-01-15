@@ -3,7 +3,8 @@
     bg="gradient-to-br"
     from="gray-700"
     to="gray-900"
-    class="flex flex-col h-screen"
+    h="screen"
+    class="flex flex-col"
   >
     <Header />
 
