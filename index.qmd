@@ -1,7 +1,11 @@
 ---
-title: "portfloydio"
+title: "Floyd Everest"
+about:
+  template: trestles
+  image: me.jpg
+toc: false
 ---
 
-This is a Quarto website.
+## Don't judge me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+my website isn't done yet...
