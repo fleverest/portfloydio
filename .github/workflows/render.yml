@@ -22,7 +22,7 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Make Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site/
       
