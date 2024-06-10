@@ -22,9 +22,8 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Make Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: _site/
       
       - name: Deploy
