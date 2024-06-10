@@ -3,14 +3,16 @@ name: Publish website
 on:
   push:
     branches: main
-permissions:
-  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -18,8 +20,13 @@ jobs:
 
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Make Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website
+          path: _site/
       
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
+        id: deployment
+        uses: actions/deploy-pages@v4
