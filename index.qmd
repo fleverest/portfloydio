@@ -8,6 +8,6 @@ toc: false
 
 ## About Me
 
-I'm a PhD student at Monash University in the department of [Econometrics and Business Statistics](https://www.monash.edu/business/econometrics-and-business-statistics). My research focuses on [Statistical Election Audits](https://en.wikipedia.org/wiki/Risk-limiting_audit), supervised by [A. Prof. Damjan Vukcevic](https://research.monash.edu/en/persons/damjan-vukcevic) and [Prof. David Frazier](https://research.monash.edu/en/persons/david-frazier).
+I'm a PhD candidate at Monash University in the department of [Econometrics and Business Statistics](https://www.monash.edu/business/econometrics-and-business-statistics). My research focuses on [Statistical Election Audits](https://en.wikipedia.org/wiki/Risk-limiting_audit), supervised by [A. Prof. Damjan Vukcevic](https://research.monash.edu/en/persons/damjan-vukcevic) and [Prof. David Frazier](https://research.monash.edu/en/persons/david-frazier).
 
 In my free time, I enjoy bouldering and playing badminton with friends.
