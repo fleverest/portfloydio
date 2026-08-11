@@ -2,11 +2,14 @@ project:
   type: website
 
 website:
+  site-url: https://floydeverest.com/
   navbar:
     left:
       - href: index.qmd
         text: Floyd Everest
     right:
+      - text: blog
+        href: microblog.qmd
       - href: mailto:me@floydeverest.com
         icon: envelope-fill
       - href: https://github.com/fleverest

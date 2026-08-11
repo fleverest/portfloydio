@@ -1,0 +1,15 @@
+---
+title: "Microblog"
+listing:
+  contents: microblog
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, image, reading-time, categories]
+  categories: true
+  feed:
+    title: "Floyd's magnificent microblog"
+    description: "Rants, wranglings and reflections by yours truly"
+page-layout: full
+---
+
+Microblog

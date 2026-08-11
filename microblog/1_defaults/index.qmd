@@ -1,0 +1,31 @@
+---
+title: "Ode to defaults"
+description: "Reflections on the silent suffering of developers and the normalised disrespect of overriding software defaults"
+date: "2026-08-11"
+tags:
+  - rant
+  - joke
+image: dr_default.png
+image-alt: "Dr. Default: a self-portrait."
+---
+
+![Behind every great overridde, there is a Dr Default...](dr_default.png)
+
+The year is 2025; I'm presenting my work on [prefio](https://github.com/fleverest/prefio/) at our departments annual workshop [WOMBAT](https://wombat2025.numbat.space/).
+
+As the day progressed, I witnessed slide after slide with carefully curated colour schemes, thoughfully placed graphics, and curated typesetting.
+
+When it came my turn to present, I stared longingly at my slides, the beauty of which I had nary a passing thought over the preceding weeks.
+
+"How embarassing"---I thought...
+
+I had left the quarto revealJS theme on, where every other speaker had overridden these defaults in favour of their own custom designs.
+
+At the time, I was embarassed being the odd one out. But I have had a year to reflect on this incident, and so I am writing my reflections in the form of this blog. In fact I created this blog for this exact reason. It is of utmost importance that I share this new found insight with the world---on my blog that nobody reads.
+
+It is a little known fact that, at least in the days before AI, default settings were written by a person. In overriding a default we convey not only that we care for the appearance of our work, but that we do not care for the vision of the author of the software also.
+
+When we override a default we erase something that a great deal of thought, *even love*, has poured into.
+
+So the next time you are urged to override a default argument, just remind yourself: isn't there someone you are forgetting to ask?
+
